@@ -1,0 +1,7 @@
+path: /home/amit/srip/data  # Root directory of your dataset
+train: /home/amit/srip/data/images/train             # Path to training images (relative to 'path')
+val: /home/amit/srip/data/images/val                 # Path to validation images (relative to 'path')
+test: /home/amit/srip/data/images/test               # Path to test images (optional)
+
+nc: 1                           # Number of classes (e.g., 1 for solar panels)
+names: ["solar_panel"]          # Class names
